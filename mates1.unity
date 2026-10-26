@@ -223,6 +223,7 @@ GameObject:
   - component: {fileID: 447581056}
   - component: {fileID: 447581058}
   - component: {fileID: 447581059}
+  - component: {fileID: 447581060}
   m_Layer: 0
   m_Name: 0
   m_TagString: Untagged
@@ -311,7 +312,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447581054}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e366ad42dd5f97b44ae2b50880c7ac66, type: 3}
   m_Name: 
@@ -323,11 +324,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 447581054}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d51b9ea9ac6261e4ea6d239a3d435715, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ejercicio4
+--- !u!114 &447581060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 447581054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ff540a44093174aa1a191924785ee3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Recursividad
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
